@@ -1,0 +1,215 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+main {
+	display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: rgb(221, 217, 217);
+}
+main > section:first-of-type {
+	width: 30%;
+  background-color: white;
+  padding: 4px;
+}
+main > section:last-of-type {
+  background-color: white;
+	width: 70%;
+}
+.company {
+	display: flex;
+	background-color: rgb(226, 224, 224);
+	border-radius: 4px;
+	justify-content: center;
+	align-items: center;
+	padding: 4px;
+	color: purple;
+	font-size: 20px;
+	font-weight: bold;
+}
+.start {
+	display: flex;
+	gap: 4px;
+  margin-block: 4px;
+}
+.start > div {
+	display: flex;
+	background-color: rgb(226, 224, 224);
+	border-radius: 4px;
+	justify-content: center;
+	align-items: center;
+	padding: 4px;
+	flex: 1;
+}
+
+.over {
+	display: flex;
+	background-color: rgb(226, 224, 224);
+	border-radius: 4px;
+	justify-content: center;
+	align-items: center;
+	padding: 4px;
+	color: purple;
+	font-weight: 600;
+  margin-top: 2px;
+  margin-bottom: 4px;
+}
+.buy {
+	display: flex;
+	font-weight: 700;
+	color: white;
+}
+.buy > div:first-child {
+	background-color: green;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	padding: 4px;
+}
+.buy > div + div {
+	background-color: blue;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	padding: 4px;
+}
+.buy > div:last-child {
+	background-color: red;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	padding: 4px;
+}
+.twen {
+	display: flex;
+	font-weight: 700;
+	color: white;
+	margin-top: 1px;
+}
+.twen > div:first-child {
+	background-color: green;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	padding: 12px;
+}
+.twen > div + div {
+	background-color: blue;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	padding: 12px;
+}
+.twen > div:last-child {
+	background-color: red;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	padding: 12px;
+}
+.his > h3 {
+	background-color: blue;
+  display: flex;
+  color: white;
+  justify-content: center;
+  padding: 2px;
+}
+.his{
+  height: 400px;
+}
+.art h3{
+  background-color: blue;
+  display: flex;
+  color: white;
+  justify-content: center;
+  padding: 2px;
+}
+.art p{
+  color: rgb(122, 122, 233);
+  font-weight: 600;
+  margin: 6px 2px;
+  line-height: 200%;
+}
+.sou{
+  display: flex;
+  justify-content: space-between;
+}
+.url{
+  color: red;
+  font-weight: 700;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(195, 194, 194);
+}
+.box{
+  display: flex;
+  
+}
+.box>div{
+   color: white;
+  font-weight: 700;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box>div:first-child{
+  background-color: green;
+}
+.box>div:last-child{
+  background-color: red;
+}
+.box>div+div{
+  background-color: blue;
+}
+.lol{
+  border: 1px solid gray;
+  display: flex;
+  margin-block: 2px;
+  gap: 2px;
+  border-radius: 8px;
+}
+.lor{
+  border: 1px solid gray;
+  padding: 1px;
+  border-radius: 8px;
+}
+.lol>div{
+
+  flex: 1;
+}
+.hol{
+  display: flex;
+  gap: 4px;
+  margin-left: 6px;
+  justify-content: space-around;
+
+}
+.sel{
+  display: flex;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+  align-items: center;
+	padding: 8px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+}
+#green{
+  background-color: green;
+}
+.news{
+  text-align: center;
+  margin-bottom: 4px;
+}
+#blue{
+  background-color: blue;
+}
+#red{
+  background-color: red;
+}
